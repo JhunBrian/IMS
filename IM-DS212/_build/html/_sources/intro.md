@@ -1,12 +1,49 @@
-# Object-Oriented Programming for Data Science
+# Course home
 
-* **Instructional Material for Object-Oriented Programming**
-* **Second-Year Data Science Students**
-* **University of Science and Technology of Southern Philippines**
-* **College of Information Technology and Computing**
-* **Department of Data Science**
+```{raw} html
+<section class="course-hero" aria-label="Welcome to DS212">
+  <div class="course-eyebrow">DS212 / The course companion</div>
+  <p class="hero-title">Think in objects.<br>Build with Python.</p>
+  <p>Object-Oriented Programming for Data Science. Explore the ideas, work through the examples, and turn your understanding into practice.</p>
+  <div class="hero-actions">
+    <a class="hero-button" href="notebooks/00_Introduction.html">Start learning <span aria-hidden="true">→</span></a>
+    <a class="hero-button secondary" href="course-guide.html">How to use this book</a>
+  </div>
+</section>
+<div class="course-meta">SECOND-YEAR DATA SCIENCE · USTP · COLLEGE OF INFORMATION TECHNOLOGY AND COMPUTING</div>
+```
 
----
+## Explore the course
+
+Choose a lesson below, or follow the course navigation from top to bottom. Practice activities appear beneath the lessons they support.
+
+::::{grid} 1 1 2 2
+:gutter: 3
+
+:::{grid-item-card} OOP foundations
+:link: notebooks/00_Introduction
+:link-type: doc
+
+^^^
+Explore programming paradigms and the history of object-oriented thinking. Put the ideas to work in two guided activities.
+
++++
+Begin with programming paradigms →
+:::
+
+:::{grid-item-card} Python review
+:link: notebooks/02_PythonReview1
+:link-type: doc
+
+^^^
+Revisit Python fundamentals, then move through control flow, functions, and modules before the combined coding exercise.
+
++++
+Start Python review I →
+:::
+::::
+
+[View the course syllabus](syllabus.md) · [Go to the Python coding exercise](notebooks/exercises/02_Exercise.ipynb)
 
 ## Welcome
 
@@ -200,19 +237,6 @@ Experiment with the examples, modify the code, make mistakes, and examine what h
 
 ---
 
-<!-- ## Course Syllabus
-
-Below is the official syllabus for **DS212 — Object-Oriented Programming**.
-
-:::{iframe} Syllabus.pdf
-:width: 100%
-:title: DS212 Object-Oriented Programming Syllabus
-:::
-
-[Open the syllabus as a PDF](Syllabus.pdf) -->
-
----
-
 ## About This Material
 
 This Jupyter Book is developed as an **open instructional resource for Object-Oriented Programming in Data Science**. It is intended primarily for undergraduate Data Science students who already possess foundational knowledge of Python programming.
@@ -220,11 +244,3 @@ This Jupyter Book is developed as an **open instructional resource for Object-Or
 The material may also be used by other learners and educators interested in studying Object-Oriented Programming through Python, particularly within a Data Science context.
 
 Examples, discussions, diagrams, and exercises are provided to support both classroom instruction and independent study.
-
-<iframe
-    src="https://en.wikipedia.org/wiki/Programming_paradigm"
-    width="100%"
-    height="900px"
-    style="border: 1px solid #ddd;"
-    title="DS212 Object-Oriented Programming Syllabus">
-</iframe>

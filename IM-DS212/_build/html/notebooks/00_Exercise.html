@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Exercise: What Programming Paradigm Am I? &#8212; My sample book</title>
+    <title>Exercise &#8212; My sample book</title>
   
   
   
@@ -32,7 +32,7 @@
     <link rel="stylesheet" type="text/css" href="../_static/styles/sphinx-book-theme.css?v=eba8b062" />
     <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css?v=13237357" />
     <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
-    <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css?v=be8a1c11" />
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css?v=4fa983c6" />
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
   
@@ -60,6 +60,7 @@
     <script>DOCUMENTATION_OPTIONS.pagename = 'notebooks/00_Exercise';</script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="History and Principles of Object-Oriented Programming" href="01_History.html" />
     <link rel="prev" title="Introduction" href="00_Introduction.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
@@ -178,12 +179,17 @@
                 </a>
             </li>
         </ul>
-        <ul class="current nav bd-sidenav">
+        <p aria-level="2" class="caption" role="heading"><span class="caption-text">Midterm Coverage</span></p>
+<ul class="current nav bd-sidenav">
 <li class="toctree-l1 current active has-children"><a class="reference internal" href="00_Introduction.html"><strong>Introduction</strong></a><details open="open"><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul class="current">
-<li class="toctree-l2 current active"><a class="current reference internal" href="#"><strong>Exercise: What Programming Paradigm Am I?</strong></a></li>
-
+<li class="toctree-l2 current active"><a class="current reference internal" href="#"><strong>Exercise</strong></a></li>
 </ul>
 </details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="01_History.html"><strong>History and Principles of Object-Oriented Programming</strong></a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="01_Exercise.html"><strong>Case Study</strong></a></li>
+</ul>
+</details></li>
+<li class="toctree-l1"><a class="reference internal" href="02_PythonReview1.html"><strong>Python Review Part 1</strong></a></li>
 </ul>
 
     </div>
@@ -369,7 +375,7 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>Exercise: What Programming Paradigm Am I?</h1>
+    <h1>Exercise</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
@@ -379,20 +385,19 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#"><strong>Exercise: What Programming Paradigm Am I?</strong></a><ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#scenario-1-processing-sensor-data"><strong>Scenario 1 — Processing Sensor Data</strong></a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#scenario-2-data-analysis-toolkit"><strong>Scenario 2 — Data Analysis Toolkit</strong></a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#scenario-3-university-enrollment-system"><strong>Scenario 3 — University Enrollment System</strong></a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#scenario-4-transforming-a-dataset"><strong>Scenario 4 — Transforming a Dataset</strong></a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#scenario-5-finding-qualified-students"><strong>Scenario 5 — Finding Qualified Students</strong></a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#scenario-6-hospital-management-system"><strong>Scenario 6 — Hospital Management System</strong></a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#scenario-7-calculating-final-grades"><strong>Scenario 7 — Calculating Final Grades</strong></a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#scenario-8-image-processing-pipeline"><strong>Scenario 8 — Image Processing Pipeline</strong></a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#what-programming-paradigm-am-i"><strong>What Programming Paradigm Am I?</strong></a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#scenario-1-processing-sensor-data"><strong>Scenario 1 — Processing Sensor Data</strong></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#scenario-2-data-analysis-toolkit"><strong>Scenario 2 — Data Analysis Toolkit</strong></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#scenario-3-university-enrollment-system"><strong>Scenario 3 — University Enrollment System</strong></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#scenario-4-transforming-a-dataset"><strong>Scenario 4 — Transforming a Dataset</strong></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#scenario-5-finding-qualified-students"><strong>Scenario 5 — Finding Qualified Students</strong></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#scenario-6-hospital-management-system"><strong>Scenario 6 — Hospital Management System</strong></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#scenario-7-calculating-final-grades"><strong>Scenario 7 — Calculating Final Grades</strong></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#scenario-8-image-processing-pipeline"><strong>Scenario 8 — Image Processing Pipeline</strong></a></li>
 </ul>
 </li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#challenge-same-problem-different-thinking">Challenge: Same Problem, Different Thinking</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#challenge-same-problem-different-thinking">Challenge: Same Problem, Different Thinking</a></li>
 </ul>
-
             </nav>
         </div>
     </div>
@@ -403,8 +408,10 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <section id="exercise-what-programming-paradigm-am-i">
-<h1><strong>Exercise: What Programming Paradigm Am I?</strong><a class="headerlink" href="#exercise-what-programming-paradigm-am-i" title="Link to this heading">#</a></h1>
+  <section class="tex2jax_ignore mathjax_ignore" id="exercise">
+<h1><strong>Exercise</strong><a class="headerlink" href="#exercise" title="Link to this heading">#</a></h1>
+<section id="what-programming-paradigm-am-i">
+<h2><strong>What Programming Paradigm Am I?</strong><a class="headerlink" href="#what-programming-paradigm-am-i" title="Link to this heading">#</a></h2>
 <p><strong>Learning Objective</strong></p>
 <p>Given a description of how a programmer approaches a problem, identify the programming paradigm being demonstrated and briefly justify the answer.</p>
 <p>Choose from:</p>
@@ -413,7 +420,7 @@ document.write(`
 <div><p><strong>Instruction:</strong> Identify the paradigm that is <strong>most strongly emphasized</strong> in each scenario. Some real programs combine multiple paradigms, but choose the best answer based on the description.</p>
 </div></blockquote>
 <section id="scenario-1-processing-sensor-data">
-<h2><strong>Scenario 1 — Processing Sensor Data</strong><a class="headerlink" href="#scenario-1-processing-sensor-data" title="Link to this heading">#</a></h2>
+<h3><strong>Scenario 1 — Processing Sensor Data</strong><a class="headerlink" href="#scenario-1-processing-sensor-data" title="Link to this heading">#</a></h3>
 <p>A weather station receives a list of temperature readings. The programmer writes instructions that:</p>
 <ol class="arabic simple">
 <li><p>Create an empty list.</p></li>
@@ -426,7 +433,7 @@ document.write(`
 <p><strong>Why?</strong> ______________________________________________________</p>
 </section>
 <section id="scenario-2-data-analysis-toolkit">
-<h2><strong>Scenario 2 — Data Analysis Toolkit</strong><a class="headerlink" href="#scenario-2-data-analysis-toolkit" title="Link to this heading">#</a></h2>
+<h3><strong>Scenario 2 — Data Analysis Toolkit</strong><a class="headerlink" href="#scenario-2-data-analysis-toolkit" title="Link to this heading">#</a></h3>
 <p>A data scientist frequently needs to clean datasets. Instead of repeating the same code, she creates:</p>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">remove_missing_values</span><span class="p">()</span>
 <span class="n">normalize_data</span><span class="p">()</span>
@@ -439,7 +446,7 @@ document.write(`
 <p><strong>Why?</strong> ______________________________________________________</p>
 </section>
 <section id="scenario-3-university-enrollment-system">
-<h2><strong>Scenario 3 — University Enrollment System</strong><a class="headerlink" href="#scenario-3-university-enrollment-system" title="Link to this heading">#</a></h2>
+<h3><strong>Scenario 3 — University Enrollment System</strong><a class="headerlink" href="#scenario-3-university-enrollment-system" title="Link to this heading">#</a></h3>
 <p>A development team is designing an enrollment system. They identify several important entities:</p>
 <div class="highlight-text notranslate"><div class="highlight"><pre><span></span>Student
 Course
@@ -452,7 +459,7 @@ Enrollment
 <p><strong>Why?</strong> ______________________________________________________</p>
 </section>
 <section id="scenario-4-transforming-a-dataset">
-<h2><strong>Scenario 4 — Transforming a Dataset</strong><a class="headerlink" href="#scenario-4-transforming-a-dataset" title="Link to this heading">#</a></h2>
+<h3><strong>Scenario 4 — Transforming a Dataset</strong><a class="headerlink" href="#scenario-4-transforming-a-dataset" title="Link to this heading">#</a></h3>
 <p>A programmer processes sales data as a sequence of transformations:</p>
 <div class="highlight-text notranslate"><div class="highlight"><pre><span></span>Raw Sales
     ↓
@@ -470,7 +477,7 @@ produce results
 <p><strong>Why?</strong> ______________________________________________________</p>
 </section>
 <section id="scenario-5-finding-qualified-students">
-<h2><strong>Scenario 5 — Finding Qualified Students</strong><a class="headerlink" href="#scenario-5-finding-qualified-students" title="Link to this heading">#</a></h2>
+<h3><strong>Scenario 5 — Finding Qualified Students</strong><a class="headerlink" href="#scenario-5-finding-qualified-students" title="Link to this heading">#</a></h3>
 <p>Student information is stored in a database. The programmer wants the names of students whose grade is at least 90.</p>
 <p>Instead of writing instructions describing how the database should inspect every record, the programmer writes:</p>
 <div class="highlight-sql notranslate"><div class="highlight"><pre><span></span><span class="k">SELECT</span><span class="w"> </span><span class="n">name</span>
@@ -483,7 +490,7 @@ produce results
 <p><strong>Why?</strong> ______________________________________________________</p>
 </section>
 <section id="scenario-6-hospital-management-system">
-<h2><strong>Scenario 6 — Hospital Management System</strong><a class="headerlink" href="#scenario-6-hospital-management-system" title="Link to this heading">#</a></h2>
+<h3><strong>Scenario 6 — Hospital Management System</strong><a class="headerlink" href="#scenario-6-hospital-management-system" title="Link to this heading">#</a></h3>
 <p>A hospital system contains <code class="docutils literal notranslate"><span class="pre">Patient</span></code>, <code class="docutils literal notranslate"><span class="pre">Doctor</span></code>, and <code class="docutils literal notranslate"><span class="pre">Appointment</span></code> entities. A programmer creates a <code class="docutils literal notranslate"><span class="pre">Patient</span></code> that stores a patient’s information and provides operations such as:</p>
 <div class="highlight-text notranslate"><div class="highlight"><pre><span></span>update_contact()
 schedule_appointment()
@@ -498,7 +505,7 @@ view_medical_history()
 <p><strong>Why?</strong> ______________________________________________________</p>
 </section>
 <section id="scenario-7-calculating-final-grades">
-<h2><strong>Scenario 7 — Calculating Final Grades</strong><a class="headerlink" href="#scenario-7-calculating-final-grades" title="Link to this heading">#</a></h2>
+<h3><strong>Scenario 7 — Calculating Final Grades</strong><a class="headerlink" href="#scenario-7-calculating-final-grades" title="Link to this heading">#</a></h3>
 <p>A programmer writes:</p>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">total</span> <span class="o">=</span> <span class="mi">0</span>
 
@@ -518,7 +525,7 @@ view_medical_history()
 <p><strong>Why?</strong> ______________________________________________________</p>
 </section>
 <section id="scenario-8-image-processing-pipeline">
-<h2><strong>Scenario 8 — Image Processing Pipeline</strong><a class="headerlink" href="#scenario-8-image-processing-pipeline" title="Link to this heading">#</a></h2>
+<h3><strong>Scenario 8 — Image Processing Pipeline</strong><a class="headerlink" href="#scenario-8-image-processing-pipeline" title="Link to this heading">#</a></h3>
 <p>An application processes an image using several transformations:</p>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">result</span> <span class="o">=</span> <span class="n">resize</span><span class="p">(</span><span class="n">image</span><span class="p">)</span>
 <span class="n">result</span> <span class="o">=</span> <span class="n">grayscale</span><span class="p">(</span><span class="n">result</span><span class="p">)</span>
@@ -532,7 +539,7 @@ view_medical_history()
 </section>
 </section>
 <section id="challenge-same-problem-different-thinking">
-<h1>Challenge: Same Problem, Different Thinking<a class="headerlink" href="#challenge-same-problem-different-thinking" title="Link to this heading">#</a></h1>
+<h2>Challenge: Same Problem, Different Thinking<a class="headerlink" href="#challenge-same-problem-different-thinking" title="Link to this heading">#</a></h2>
 <p>Consider this problem:</p>
 <blockquote>
 <div><p><strong>A university needs a system that determines which students are eligible for the Dean’s List based on their grades.</strong></p>
@@ -563,6 +570,7 @@ view_medical_history()
 </tbody>
 </table>
 </div>
+</section>
 </section>
 
     <script type="text/x-thebe-config">
@@ -604,6 +612,15 @@ view_medical_history()
         <p class="prev-next-title"><strong>Introduction</strong></p>
       </div>
     </a>
+    <a class="right-next"
+       href="01_History.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title"><strong>History and Principles of Object-Oriented Programming</strong></p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
 </div>
                 </footer>
               
@@ -620,20 +637,19 @@ view_medical_history()
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#"><strong>Exercise: What Programming Paradigm Am I?</strong></a><ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#scenario-1-processing-sensor-data"><strong>Scenario 1 — Processing Sensor Data</strong></a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#scenario-2-data-analysis-toolkit"><strong>Scenario 2 — Data Analysis Toolkit</strong></a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#scenario-3-university-enrollment-system"><strong>Scenario 3 — University Enrollment System</strong></a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#scenario-4-transforming-a-dataset"><strong>Scenario 4 — Transforming a Dataset</strong></a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#scenario-5-finding-qualified-students"><strong>Scenario 5 — Finding Qualified Students</strong></a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#scenario-6-hospital-management-system"><strong>Scenario 6 — Hospital Management System</strong></a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#scenario-7-calculating-final-grades"><strong>Scenario 7 — Calculating Final Grades</strong></a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#scenario-8-image-processing-pipeline"><strong>Scenario 8 — Image Processing Pipeline</strong></a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#what-programming-paradigm-am-i"><strong>What Programming Paradigm Am I?</strong></a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#scenario-1-processing-sensor-data"><strong>Scenario 1 — Processing Sensor Data</strong></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#scenario-2-data-analysis-toolkit"><strong>Scenario 2 — Data Analysis Toolkit</strong></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#scenario-3-university-enrollment-system"><strong>Scenario 3 — University Enrollment System</strong></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#scenario-4-transforming-a-dataset"><strong>Scenario 4 — Transforming a Dataset</strong></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#scenario-5-finding-qualified-students"><strong>Scenario 5 — Finding Qualified Students</strong></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#scenario-6-hospital-management-system"><strong>Scenario 6 — Hospital Management System</strong></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#scenario-7-calculating-final-grades"><strong>Scenario 7 — Calculating Final Grades</strong></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#scenario-8-image-processing-pipeline"><strong>Scenario 8 — Image Processing Pipeline</strong></a></li>
 </ul>
 </li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#challenge-same-problem-different-thinking">Challenge: Same Problem, Different Thinking</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#challenge-same-problem-different-thinking">Challenge: Same Problem, Different Thinking</a></li>
 </ul>
-
   </nav></div>
 
 </div></div>
